@@ -1,0 +1,149 @@
+
+* { 
+  font-family: Quicksand;
+  font-size: 16px;
+  color: #333;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  border: 0;
+  background: #fff;
+}
+
+.form {
+  background-color: #fff;
+  height: 240px;
+  width: 500px;
+  border-radius: 20px;
+  margin: 20px auto 20px auto;  
+  border: solid 1px #1065c7;
+  box-shadow: 10px 20px 30px #ddd;
+}
+
+.form:hover {
+  box-shadow: 0 0 100px 0 #ccc;  
+}
+
+.row {
+  padding: 35px 35px 0px 35px;  
+}
+
+.row-button {
+  margin-left: 170px;
+}
+
+.text-input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;  
+  border: solid 1px #1065c7;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.text-input:last-child {
+  margin-bottom: 35px;
+}
+
+.text-input:hover {
+  background-color: #bbb3bb7c;
+}
+
+#submit {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 160px;
+  background-color: #1065c7;
+  color: #fff;
+  align-items: center;
+}
+
+#submit:hover{
+  background-color: #1065c7;
+}
+
+.text {
+  display: inline-block;
+  margin: 5px 20px 5px 8px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #1065c7;
+  padding-top: 15px;
+  display: block;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+}
+
+h3 b {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1065c7;    
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #1065c7;
+  padding-top: 15px;
+  display: block;
+}
+
+
+.h2 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+table.blueTable {  
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;  
+  font-family: Quicksand;  
+  align-items: center;  
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+  border-radius: 10px;
+}
+table.blueTable tbody td {
+  font-family: Quicksand; 
+  font-size: 13px;  
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+  height: 35px;    
+}
+table.blueTable thead {
+  background: #1065C7;
+  height: 35px;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+}
